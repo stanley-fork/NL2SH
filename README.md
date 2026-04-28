@@ -38,7 +38,7 @@ nlsh "ping localhost with 1 packet"
 Note: Our code has only been tested on Ubuntu 20.04 with Python 3.10 and PyTorch 2.6.0+cu124.
 
 - Install Docker Engine [(Instructions)](https://docs.docker.com/engine/install/)  
-- Configure Docker for non-sudo users [(Instructions)](https://docs.docker.com/engine/install/linux-postinstall/) 
+- Configure Docker for non-root users [(Instructions)](https://docs.docker.com/engine/install/linux-postinstall/) 
 - Install Ollama
 ```bash
 curl -fsSL https://ollama.com/install.sh | sh
